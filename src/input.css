@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+    --font-inter: 'Inter', sans-serif;
+    --breakpoint-xs: 33rem;
+}
+
+@theme {
+    @keyframes intro {
+        0% {
+            transform: scale(0.8);
+            -webkit-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            -o-transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+        }
+    }
+
+    @keyframes spinner {
+        0% {
+            transform: translateX(-50%) rotate(0deg);
+            -webkit-transform: translateX(-50%) rotate(0deg);
+            -moz-transform: translateX(-50%) rotate(0deg);
+            -ms-transform: translateX(-50%) rotate(0deg);
+            -o-transform: translateX(-50%) rotate(0deg);
+        }
+
+        100% {
+            transform: translateX(-50%) rotate(360deg);
+            -webkit-transform: translateX(-50%) rotate(360deg);
+            -moz-transform: translateX(-50%) rotate(360deg);
+            -ms-transform: translateX(-50%) rotate(360deg);
+            -o-transform: translateX(-50%) rotate(360deg);
+        }
+    }
+
+    --animate-intro: intro 0.6s ease-out;
+    --animate-spinner: spinner 1s linear infinite;
+
+}
+
+@utility hashtag {
+    @apply bg-purple-300/13 cursor-pointer text-sm text-amber-50 opacity-75 font-light px-3.5 py-1.5 rounded-2xl hover:text-white hover:scale-111 hover:opacity-100 focus:font-normal focus:text-white focus:scale-111 focus:opacity-100 active:scale-106 active:opacity-100 transition-all duration-200;
+}
+
+@utility hashtags_item {
+    @apply max-w-max mb-2.5;
+}
+
+@utility form-invalid {
+    @apply ring-2 ring-[#8a3d2c];
+}
+
+@utility form-valid {
+    @apply ring-2 ring-[#2c8a5e];
+}

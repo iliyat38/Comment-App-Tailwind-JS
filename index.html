@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/output.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body
+    class="bg-gradient-to-bl from-[#654a86] to-[#534292] pt-0 pb-5 flex justify-center items-start min-h-[100vh] font-inter md:py-15 md:px-0">
+
+    <div class="body_container relative w-full md:w-fit flex flex-col justify-center items-center h-[87%]">
+
+        <!-- components countainer -->
+        <main class="app w-full md:w-[715px] h-full md:rounded-md overflow-hidden animate-intro">
+            <!-- header -->
+            <header class="header relative z-20 flex flex-col justify-center items-center bg-[#121618] px-5 py-8">
+                <img class="header_pattern object-none min-h-21.5 absolute select-none top-0 z-0"
+                    src="https://bytegrad.com/course-assets/js/1/pattern.svg" alt="pattern>
+                <a href=" ." class="logo">
+                <img class="logo_img select-none" src="https://bytegrad.com/course-assets/js/1/logo.svg" alt="logo">
+                </a>
+                <h1
+                    class="first_heading relative text-center text-white selection:bg-gray-600 z-10 text-4xl font-bold mt-1">
+                    Give
+                    Feedback <span class="italic opacity-70">Publicly</span></h1>
+                <form
+                    class="form relative mt-5 w-full xs:w-[470px] h-[123px] bg-[#FFFFFF0A] rounded-md overflow-hidden hover:bg-[#FFFFFF0E] focus-within:bg-[#FFFFFF0E] focus-within:outline-2 focus-within:outline-[#FFFFFF20] transition-all duration-100"
+                    action="#" tabindex="0">
+                    <textarea required
+                        class="form_textarea peer resize-none bg-transparent w-full h-21 caret-[#FFFFFF40] text-[#FFFFFFCC] selection:bg-gray-600 selection:text-amber-50 text-sm py-4 px-5 placeholder:opacity-0 outline-0"
+                        spellcheck="false" id="textarea" maxlength="150" type="text"
+                        placeholder="Enter Text"></textarea>
+                    <label for="textarea"
+                        class="form_label text-amber-50 opacity-45 pointer-events-none absolute top-3 left-5 select-none transition-opacity duration-300 peer-not-placeholder-shown:opacity-0 peer-focus:opacity-0">Enter
+                        your feedback here, remember to <span class="font-medium">#hashtag</span> the company <i
+                            class="fa-solid fa-pen form_icon text-sm ml-1 opacity-60"></i></label>
+                    <div class="form_bottom flex justify-between px-5 items-center -mt-2">
+                        <p
+                            class="counter italic pointer-events-none font-semibold text-sm text-[#FFFFFF40] selection:text-amber-50">
+                            150</p>
+                        <button
+                            class="submit_btn font-semibold uppercase text-[12px] bg-[#f7f8f9] px-4 py-1.25 rounded-[500px] cursor-pointer text-[#161921] selection:text-black hover:scale-110 transition-all duration-125s focus:scale-104">
+                            submit
+                        </button>
+                    </div>
+                </form>
+            </header>
+            <!-- comment space -->
+            <ol class="feedbacks bg-[#f7f8f9] h-[573px] overflow-y-scroll overflow-x-hidden scrollbar">
+                <!-- spinner for loading -->
+                <div
+                    class="spinner absolute left-[50%] top-[50%] rounded-full w-25 h-25 border-7 border-[#e2e7e9] border-l-[#ccd1d3] animate-spinner">
+                </div>
+
+            </ol>
+        </main>
+
+        <!-- filtering hashtags -->
+        <ul class="hashtags selection:bg-[#FFFFFF40] hidden lg:block absolute top-0 right-[-140px] lg:animate-intro">
+            <li class="hashtags_item">
+                <button class="hashtag">#JavaScript.ir</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Nike</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Starbucks</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Netflix</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Amazon</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Microsoft</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#Adidas</button>
+            </li>
+            <li class="hashtags_item">
+                <button class="hashtag">#McDonald's</button>
+            </li>
+        </ul>
+
+        <!-- footer -->
+        <footer
+            class="footer relative text-center mt-5 py-0 px-3.75 lg:absolute lg:-rotate-90 lg:px-0 lg:left-[-230px] lg:bottom-42 lg:text-left lg:animate-intro">
+            <small class="copyright text-[#A6ADB5] text-xs selection:bg-[#FFFFFF40]">
+                <p class="copyright__text opacity-40">© Copyright by <a href="" class="copyright__link underline"
+                        target="_self">ILIYA</a> <i
+                        class="fa-solid fa-square-up-right copyright__icon text-[10px] opacity-50 mr-1 ml-0.5"></i>
+                    Intended for learning or your portfolio.</p>
+                <p class="copyright__text opacity-40"><span class="font-bold italic">Not allowed</span> to use as your
+                    own teaching
+                    material.</p>
+            </small>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

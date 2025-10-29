@@ -1,0 +1,84 @@
+{
+  "feedbacks": [
+    {
+      "id": "1",
+      "company": "ILIYA",
+      "text": "I love #ILIYA!",
+      "upvoteCount": 99999,
+      "daysAgo": 2,
+      "badgeLetter": "I"
+    },
+    {
+      "id": "2",
+      "company": "Netflix",
+      "text": "since yday on mobile #netflix keeps buffering the video, it keeps happening even when I redownload the app. I'm in an area with decent internet btw",
+      "upvoteCount": 486,
+      "daysAgo": 5,
+      "badgeLetter": "N"
+    },
+    {
+      "id": "3",
+      "company": "McDonald's",
+      "text": "It's a real shame that my local #mcdonald's removed milkshakes from the menu. they were the reason I go to mcdonald's. 😩 please bring them back!",
+      "upvoteCount": 377,
+      "daysAgo": 2,
+      "badgeLetter": "M"
+    },
+    {
+      "id": "4",
+      "company": "Amazon",
+      "text": "Im an #amazon prime member but don't really watch the prime video offering. instead of that I would want an option for even faster delivery 😎",
+      "upvoteCount": 156,
+      "daysAgo": 1,
+      "badgeLetter": "A"
+    },
+    {
+      "id": "5",
+      "company": "Netflix",
+      "text": "would be great if #netflix could announce content removals further ahead. 😊 I dont want to get into a show only for it to be gone soon. thanks",
+      "upvoteCount": 88,
+      "daysAgo": 1,
+      "badgeLetter": "N"
+    },
+    {
+      "id": "6",
+      "company": "Microsoft",
+      "text": "i've been using #microsoft teams for a couple weeks now and 1 thing that really sticks out is that navigation is too difficult. please simplify it.",
+      "upvoteCount": 41,
+      "daysAgo": 1,
+      "badgeLetter": "M"
+    },
+    {
+      "id": "7",
+      "company": "Nike",
+      "text": "hi #nike I love your running shoes but it's very difficult to return them after a purchase. had to do a lot of phone calls to make it work. thanks 👍",
+      "upvoteCount": 39,
+      "daysAgo": 5,
+      "badgeLetter": "N"
+    },
+    {
+      "id": "8",
+      "company": "McDonald's",
+      "text": "#mcdonald's the past few times I've been some items were missing from my order. only noticed this when I got home. straws, nuggets, fries, they missed",
+      "upvoteCount": 22,
+      "daysAgo": 2,
+      "badgeLetter": "M"
+    },
+    {
+      "id": "9",
+      "company": "Adidas",
+      "text": "i like your website #adidas, but your sizing guide needs some work. it suggested an L for me but when it arrived it was too big. still kept it btw 😎",
+      "upvoteCount": 9,
+      "daysAgo": 3,
+      "badgeLetter": "A"
+    },
+    {
+      "id": "28d9",
+      "upvoteCount": 0,
+      "daysAgo": 0,
+      "company": "mahdiar",
+      "badgeLetter": "M",
+      "text": "salam #mahdiar hastam ba dota ye"
+    }
+  ]
+}
