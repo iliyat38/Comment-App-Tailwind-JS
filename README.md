@@ -35,7 +35,7 @@ Clone the repository and install dependencies:
 
 ```bash
 
-git clone https://github.com/YOUR_USERNAME/comment_tailwind.git
+git clone https://github.com/iliyat38/Comment_Tailwind.git
 cd comment_tailwind
 npm install
 
