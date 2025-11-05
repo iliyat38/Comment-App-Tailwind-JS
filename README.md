@@ -47,6 +47,7 @@ npx json-server --watch db.json --port 5000
 
 ## 📂 Folder Structure
 
+```
 comment_tailwind/
 │
 ├── index.html          # App layout and structure
@@ -55,6 +56,7 @@ comment_tailwind/
 ├── package.json        # Dependencies and npm scripts
 ├── tailwind.config.js  # Tailwind configuration
 └── /node_modules       # Installed dependencies
+```
 
 ---------
 
